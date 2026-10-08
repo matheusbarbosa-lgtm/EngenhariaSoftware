@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="triangulos" name="Classificacao de triangulos">
+        <mxGraphModel dx="887" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1f2937;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Classificacao de triangulos e casos de teste" vertex="1">
+                    <mxGeometry height="40" width="900" x="60" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="inicio" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=16;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Inicio" vertex="1">
+                    <mxGeometry height="50" width="150" x="100" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="entrada" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2fe;strokeColor=#0284c7;fontSize=15;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Ler lado_a, lado_b e lado_c" vertex="1">
+                    <mxGeometry height="60" width="190" x="80" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="inteiros" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontSize=14;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Sao inteiros?" vertex="1">
+                    <mxGeometry height="90" width="170" x="90" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="positivos" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontSize=14;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Sao positivos?" vertex="1">
+                    <mxGeometry height="90" width="170" x="90" y="465" as="geometry"/>
+                </mxCell>
+                <mxCell id="triangulo" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontSize=13;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Formam um triangulo?&lt;br&gt;a + b &gt; c&lt;br&gt;a + c &gt; b&lt;br&gt;b + c &gt; a" vertex="1">
+                    <mxGeometry height="120" width="210" x="70" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="invalido" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=14;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Erro: entrada invalida" vertex="1">
+                    <mxGeometry height="60" width="190" x="390" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="invalido2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontSize=14;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Erro: nao forma triangulo" vertex="1">
+                    <mxGeometry height="60" width="190" x="390" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="equilatero" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=14;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="a = b = c?" vertex="1">
+                    <mxGeometry height="90" width="170" x="700" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="saidaEquilatero" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbf7d0;strokeColor=#16a34a;fontSize=14;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Imprime: EQUILATERO" vertex="1">
+                    <mxGeometry height="60" width="210" x="990" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="isosceles" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontSize=14;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Algum par e igual?" vertex="1">
+                    <mxGeometry height="90" width="170" x="700" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="saidaIsosceles" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbf7d0;strokeColor=#16a34a;fontSize=14;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Imprime: ISOSCELES" vertex="1">
+                    <mxGeometry height="60" width="210" x="990" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="saidaEscaleno" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbf7d0;strokeColor=#16a34a;fontSize=14;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Imprime: ESCALENO" vertex="1">
+                    <mxGeometry height="60" width="210" x="990" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="fim" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontSize=16;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Fim" vertex="1">
+                    <mxGeometry height="50" width="120" x="1300" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="testesTitulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1f2937;rounded=1;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="Casos de teste" vertex="1">
+                    <mxGeometry height="35" width="250" x="650" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="testes" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=12;fillColor=#f3f4f6;strokeColor=#6b7280;fontSize=13;sketch=1;curveFitting=1;jiggle=2;roundedPerimeter=1;" value="&lt;b&gt;Validos&lt;/b&gt;&lt;br&gt;(5,5,5) - equilatero&lt;br&gt;(5,5,3), (5,3,5), (3,5,5) - isosceles&lt;br&gt;(4,5,6), (6,4,5) - escaleno&lt;br&gt;&lt;br&gt;&lt;b&gt;Invalidos&lt;/b&gt;&lt;br&gt;(1,2,3) - lados nao formam triangulo&lt;br&gt;(0,1,1) - lado zero&lt;br&gt;(-1,2,2) - lado negativo&lt;br&gt;(2,2.5,3) - valor nao inteiro" vertex="1">
+                    <mxGeometry height="190" width="650" x="650" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="inicio" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="entrada" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="entrada" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="inteiros" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" edge="1" parent="1" source="inteiros" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="positivos" value="Sim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" edge="1" parent="1" source="inteiros" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="invalido" value="Nao">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" edge="1" parent="1" source="positivos" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="triangulo" value="Sim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" edge="1" parent="1" source="positivos" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="invalido" value="Nao">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" edge="1" parent="1" source="triangulo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="equilatero" value="Sim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" edge="1" parent="1" source="triangulo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="invalido2" value="Nao">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" edge="1" parent="1" source="equilatero" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="saidaEquilatero" value="Sim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" edge="1" parent="1" source="equilatero" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="isosceles" value="Nao">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" edge="1" parent="1" source="isosceles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="saidaIsosceles" value="Sim">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" edge="1" parent="1" source="isosceles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="saidaEscaleno" value="Nao">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" edge="1" parent="1" source="saidaEquilatero" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="fim" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e14" edge="1" parent="1" source="saidaIsosceles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="fim" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e15" edge="1" parent="1" source="saidaEscaleno" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;sketch=1;curveFitting=1;jiggle=2;" target="fim" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
